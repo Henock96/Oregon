@@ -1,9 +1,10 @@
 import { NextApiRequest, NextApiResponse } from 'next';
+import twilio from 'twilio';
 
 var accountSid = process.env.TWILIO_ACCOUNTSID;
 var authToken = process.env.TWILIO_AUTHTOKEN;
-
-var client = require('twilio')(accountSid, authToken);
+var messagingServiceSid = process.env.MessagingServiceSid;
+var client = twilio(accountSid, authToken);
 
 export default async function sendEmail(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === 'POST') {
@@ -17,13 +18,15 @@ export default async function sendEmail(req: NextApiRequest, res: NextApiRespons
       text: `Nom du Patient: ${patientName}\nDate et Heure du Rendez-vous: ${appointmentDateTime}\nMotif du rendez-vous: ${appointmentReason}`,
     };*/
     const data = {
+      //messagingServiceSid: 'MG12ef2f4676d20dd5da4072c0e46838d8',
       to: '+242065727846',
       from: '+15735333892',
       body: 'Ahoy!',
     } 
 
     try {
-      await client.messages().create(data);
+      const message = await client.messages.create(data);
+      //console.log(message);
       res.status(201).json({ message: 'Rendez-vous pris avec succès!' });
     } catch (error) {
       console.error(error);
