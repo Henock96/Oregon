@@ -21,7 +21,7 @@ export default async function sendEmail(req: NextApiRequest, res: NextApiRespons
       //messagingServiceSid: 'MG12ef2f4676d20dd5da4072c0e46838d8',
       to: '+242065727846',
       from: '+15735333892',
-      body: 'Ahoy!',
+      body: `Nom du Patient: ${patientName}\nDate et Heure du Rendez-vous: ${appointmentDateTime}\nMotif du rendez-vous: ${appointmentReason}`,
     } 
 
     try {
