@@ -24,28 +24,28 @@ const testimonials: TestimonialAttributes[] = [
     name: 'Amanda Johnson',
     position: 'Chirurgien orthopédique',
     company: 'Clinique de santé osseuse',
-    image: 'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://www.empruntis.com/visus/mutuelle-sante-medecin-specialise.jpg',
     content: `Je pratique la médecine depuis des années et je dois dire que le niveau d'expertise et de soins prodigués dans cette clinique est exceptionnel. L'équipe ici se consacre à améliorer la vie des patients grâce à des traitements efficaces et des soins empreints de compassion.`
   },
   {
     name: 'Sophia Nguyen',
     position: 'Dermatologue',
     company: 'Clinique de soins de la peau',
-    image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://alliance-sciences-societe.fr/wp-content/uploads/2023/06/https3a2f2felements-1-12-678x381.jpg',
     content: `En tant que dermatologue, je suis fier d'être associé à cette clinique. Les techniques avancées et les traitements personnalisés proposés ici ont eu un impact significatif sur la santé cutanée et la confiance de nos patients. C'est vraiment gratifiant de voir les transformations positives.`
   },
   {
     name: 'Michael Patel',
     position: 'Gastro-entérologue',
     company: 'Centre de bien-être digestif',
-    image: 'https://images.pexels.com/photos/2770600/pexels-photo-2770600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://storage.letudiant.fr/mediatheque/letudiant/1/6/2743816-le-medecin-generaliste-recoit-les-patients-dans-son-cabinet-original.jpg',
     content: `Les patients viennent chez nous pour soulager leurs problèmes gastro-intestinaux et je suis fier de faire partie d'une équipe qui prodigue des soins exceptionnels. L'approche globale du diagnostic et du traitement garantit que nos patients reçoivent les meilleurs résultats possibles.`
   },
   {
     name: 'Emily Turner',
     position: 'Médecin de famille',
     company: 'Clinique de vie saine',
-    image: 'https://images.pexels.com/photos/247322/pexels-photo-247322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://edukiya.com/wp-content/uploads/elementor/thumbs/fiche-m%C3%A9tier-medecin-g%C3%A9n%C3%A9raliste-afrique-scaled-or0lmzh33emn1jzzv9enur3pingsyvwmyagzqe9pf4.jpg',
     content: `Promouvoir la santé et le bien-être des familles est ma passion. Dans cette clinique, nous fournissons des services de santé complets axés sur les soins préventifs et le maintien d’un mode de vie sain. C'est un privilège de faire partie du parcours de bien-être de nos patients.`
   }
 ];

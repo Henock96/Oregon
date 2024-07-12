@@ -251,9 +251,6 @@ const NAV_ITEMS: Array<NavItem> = [
     href: '/about',
   },
   {
-    label: '|',
-  },
-  {
     label: 'Calculateurs',
     href: '/calculator',
   },

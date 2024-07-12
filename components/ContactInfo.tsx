@@ -22,7 +22,7 @@ const ContactInfo = () => {
         <Flex align="center">
           <Icon as={PhoneIcon} w={5} h={5} color="teal.500" />
           <Text ml={2} color="teal.500">
-             +123-456-7890
+             +242-06-572-78-46
           </Text>
         </Flex>
         <Flex align="center">

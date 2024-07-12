@@ -9,7 +9,11 @@ import {
   Button,
   Link,
 } from '@chakra-ui/react';
-import { IoMdMedkit, IoIosMedkit, IoIosHeart, IoIosBody } from 'react-icons/io';
+import {IoMdMedkit, IoIosMedkit, IoIosHeart, IoIosBody } from 'react-icons/io';
+import { PiHeartbeatLight } from "react-icons/pi";
+import { FaChildren } from "react-icons/fa6";
+import { RiWomenFill } from "react-icons/ri";
+
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 
@@ -19,47 +23,42 @@ const Services = () => {
   const services = [
     {
       title: 'Cardiologie',
-      description: 'Conseils médicaux experts et consultation pour vos problèmes de santé.',
-      icon: <IoMdMedkit size="2em" />,
+      description: 'Conseils médicaux experts et consultations pour vos problèmes de santé cardiovasculaire. Nos spécialistes sont là pour diagnostiquer, traiter et prévenir les maladies cardiaques.',
+      icon: <PiHeartbeatLight size="2em" />,
     },
     {
       title: 'Dermatologie',
-      description: 'Des tests de diagnostic complets pour évaluer avec précision votre état de santé.',
-      icon: <IoIosMedkit size="2em" />,
-    },
-    {
-      title: 'Pediatrie',
-      description: 'Plans de traitement sur mesure pour diverses conditions médicales.',
-      icon: <IoIosHeart size="2em" />,
-    },
-    {
-      title: 'ORL',
-      description: 'Conseils et services pour maintenir une bonne santé et prévenir les maladies.',
-      icon: <IoIosBody size="2em" />,
-    },
-    {
-      title: 'Gynecologie',
-      description: 'Conseils médicaux experts et consultation pour vos problèmes de santé.',
+      description: 'Soins dermatologiques complets pour tous les types de peau. Nous offrons des consultations et des traitements pour les affections cutanées, les allergies et bien plus encore.',
       icon: <IoMdMedkit size="2em" />,
     },
     {
-      title: 'Obstetrique',
-      description: 'Des tests de diagnostic complets pour évaluer avec précision votre état de santé.',
+      title: 'Pédiatrie',
+      description: 'Des soins attentionnés et spécialisés pour vos enfants. Nos pédiatres assurent le suivi de la croissance, le développement et le bien-être des plus jeunes.',
+      icon: <FaChildren size="2em" />,
+    },
+    {
+      title: 'ORL',
+      description: 'Évaluation et traitement des troubles de l’oreille, du nez et de la gorge. Nos experts ORL vous accompagnent pour améliorer votre qualité de vie.',
+      icon: <IoIosBody size="2em" />,
+    },
+    {
+      title: 'Gynécologie',
+      description: 'Soins complets et personnalisés pour la santé féminine. Nous offrons des consultations, des dépistages et des traitements pour diverses affections gynécologiques.',
+      icon: <RiWomenFill size="2em" />,
+    },
+    {
+      title: 'Obstétrique',
+      description: 'Accompagnement et suivi de votre grossesse par des spécialistes dévoués. Nous sommes à vos côtés à chaque étape, de la conception à la naissance.',
       icon: <IoIosMedkit size="2em" />,
     },
     {
       title: 'Colposcopie',
-      description: 'Plans de traitement sur mesure pour diverses conditions médicales.',
+      description: 'Examen minutieux du col de l’utérus pour détecter et prévenir les anomalies. Notre équipe assure des soins doux et professionnels.',
       icon: <IoIosHeart size="2em" />,
     },
     {
-      title: 'Echographie',
-      description: 'Conseils et services pour maintenir une bonne santé et prévenir les maladies.',
-      icon: <IoIosBody size="2em" />,
-    },
-    {
-      title: '2D 3D 4D',
-      description: 'Conseils et services pour maintenir une bonne santé et prévenir les maladies.',
+      title: 'Échographie 2D 3D 4D',
+      description: 'Imagerie médicale avancée pour des diagnostics précis. Nos échographies en 2D, 3D et 4D vous offrent des vues détaillées pour mieux comprendre votre santé.',
       icon: <IoIosBody size="2em" />,
     },
   ];
